@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0425E24827FDEB9E002E75B0 /* prot-invent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E24727FDEB9E002E75B0 /* prot-invent.swift */; };
+		0425E24A27FDF33C002E75B0 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E24927FDF33C002E75B0 /* item.swift */; };
 		044CE7F727E028DE009AE1CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CE7F627E028DE009AE1CC /* main.swift */; };
+		045B7DD527FD8E8B00A25B08 /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B7DD427FD8E8B00A25B08 /* menu.swift */; };
+		045B7DD727FD906C00A25B08 /* invent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B7DD627FD906C00A25B08 /* invent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0425E24727FDEB9E002E75B0 /* prot-invent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "prot-invent.swift"; sourceTree = SOURCE_ROOT; };
+		0425E24927FDF33C002E75B0 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = SOURCE_ROOT; };
 		044CE7F327E028DE009AE1CC /* PoS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PoS; sourceTree = BUILT_PRODUCTS_DIR; };
 		044CE7F627E028DE009AE1CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		045B7DD427FD8E8B00A25B08 /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = SOURCE_ROOT; };
+		045B7DD627FD906C00A25B08 /* invent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invent.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 		044CE7F527E028DE009AE1CC /* PoS */ = {
 			isa = PBXGroup;
 			children = (
+				0425E24927FDF33C002E75B0 /* item.swift */,
+				0425E24727FDEB9E002E75B0 /* prot-invent.swift */,
+				045B7DD627FD906C00A25B08 /* invent.swift */,
+				045B7DD427FD8E8B00A25B08 /* menu.swift */,
 				044CE7F627E028DE009AE1CC /* main.swift */,
 			);
 			path = PoS;
@@ -90,7 +102,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					044CE7F227E028DE009AE1CC = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045B7DD527FD8E8B00A25B08 /* menu.swift in Sources */,
 				044CE7F727E028DE009AE1CC /* main.swift in Sources */,
+				0425E24A27FDF33C002E75B0 /* item.swift in Sources */,
+				0425E24827FDEB9E002E75B0 /* prot-invent.swift in Sources */,
+				045B7DD727FD906C00A25B08 /* invent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +261,7 @@
 		044CE7FB27E028DE009AE1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -254,6 +271,7 @@
 		044CE7FC27E028DE009AE1CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
